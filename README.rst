@@ -26,9 +26,10 @@ Features
 - Standard python hashlib API.
 - Pure Python.
 - Easy to extend and customize.
-   - Custom word lists.
-   - Hash phrase length.
-   - Interchangeable inner hashing function (default hashlib.sha1).
+
+  - Custom word lists.
+  - Hash phrase length.
+  - Interchangeable inner hashing function (default hashlib.sha1).
 
 
 Current dictionaries
