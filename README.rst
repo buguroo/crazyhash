@@ -22,21 +22,21 @@ Usage example
 Features
 --------
 
-  - Word lists included (see below).
-  - Standard python hashlib API.
-  - Pure Python.
-  - Easy to extend and customize.
-    - Custom word lists.
-    - Hash phrase length.
-    - Interchangeable inner hashing function (default hashlib.sha1).
+- Word lists included (see below).
+- Standard python hashlib API.
+- Pure Python.
+- Easy to extend and customize.
+  - Custom word lists.
+  - Hash phrase length.
+  - Interchangeable inner hashing function (default hashlib.sha1).
 
 
 Current dictionaries
 --------------------
 
-  - Animals
-  - Capitals
-  - Colors
-  - Countries
-  - Kamasutra
-  - Weather
+- Animals
+- Capitals
+- Colors
+- Countries
+- Kamasutra
+- Weather
