@@ -22,8 +22,11 @@ import hashlib
 
 
 class CrazyHash(object):
-    def __init__(self, composition, hasher=hashlib.sha1, sep='-'):
-        self.composition = composition
+    def __init__(self, composition=None, hasher=hashlib.sha1, sep='-'):
+        if composition is None and not hasattr(self, 'composition'):
+            raise ValueError('composition must be provided')
+        elif composition is not None:
+            self.composition = composition
         self.hasher = hasher()
         self.sep = sep
 
