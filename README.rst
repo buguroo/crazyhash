@@ -46,4 +46,5 @@ Current dictionaries
 - Colors
 - Countries
 - Kamasutra
+- NATO alphabet
 - Weather
