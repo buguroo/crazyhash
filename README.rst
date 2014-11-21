@@ -12,11 +12,16 @@ Usage example
 
 .. code-block:: python
 
-   >>> from crazyhash import hashes
-   >>> h = hashes.countries_colors()
+   >>> from crazyhash import countries_colors
+   >>> h = countries_colors.Hasher()
    >>> h.update(b'INSERT-HERE-BINARY-DATA-TO-HASH')
    >>> h.digest()
    u'HAITI-CORAL'
+   >>> from crazyhash import nato_capitals_nato
+   >>> h = nato_capitals_nato.Hasher()
+   >>> h.update(b'INSERT-HERE-BINARY-DATA-TO-HASH')
+   >>> h.digest()
+   u'YANKEE-SANAA-GOLF'
 
 
 Features
@@ -25,6 +30,7 @@ Features
 - Word lists included (see below).
 - Standard python hashlib API.
 - Pure Python.
+- Import hook system for easy usage.
 - Easy to extend and customize.
 
   - Custom word lists.
